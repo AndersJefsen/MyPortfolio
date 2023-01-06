@@ -1,0 +1,35 @@
+input[type="text"].form-control, input[type="email"].form-control {
+  display: block;
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px; /* Increase the height of the input fields */
+  font-size: 16px; /* Increase the font size of the input fields */
+}
+textarea.form-control {
+  width: 100%;
+  height: 180px; /* Increase the height of the message input field */
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Increase the font size of the message input field */
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  margin: 50px 0;
+  white-space: pre-line;
+}
+
+
+
+.navbar .nav-item .nav-link img.profile_picture {
+  display: block;
+  margin: 0 auto;
+}
